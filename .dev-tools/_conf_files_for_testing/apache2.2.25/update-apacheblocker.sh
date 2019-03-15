@@ -72,7 +72,7 @@ else
     if [ ${MAKE_BACKUP} = true ] ; then
       cp "${APACHE_CONF}/globalblacklist.conf" "${APACHE_CONF}/globalblacklist.${DATE}.backup";
       # Delete backups that are older than 5 days
-      find ${APACHE_CONF} -maxdepth 1 -type f -mtime +5 -name globalblacklist.*.backup -exec rm {} \;
+      find ${APACHE_CONF} -maxdepth 1 -type f -mtime +5 -name 'globalblacklist.*.backup' -exec rm {} \;
     fi
     wget ${BLACKLIST_URL} -O ${APACHE_CONF}/globalblacklist.tmp && mv ${APACHE_CONF}/globalblacklist.tmp ${APACHE_CONF}/globalblacklist.conf;
     if [ -f ${APACHE_CONF}/globalblacklist.tmp ] ; then
@@ -86,8 +86,8 @@ else
     if [ -z ${TESTFAIL} ] ; then
       /usr/local/apache2/bin/apachectl graceful;
       if [ ${CURL_TEST_AFTER_RELOAD} = true ] ; then
-        CURL_RESPONSE_BAD=$(curl -A "masscan" -Isk -o /dev/null -w %{http_code} ${CURL_TEST_PROTOCOL}://${CURL_TEST_URL_NAME} | tr -dc '[:alnum:]')
-        CURL_RESPONSE_GOOD=$(curl -A "googlebot" -Isk -o /dev/null -w %{http_code} ${CURL_TEST_PROTOCOL}://${CURL_TEST_URL_NAME} | tr -dc '[:alnum:]')
+        CURL_RESPONSE_BAD=$(curl --location -A "masscan" -Isk -o /dev/null -w %{http_code} ${CURL_TEST_PROTOCOL}://${CURL_TEST_URL_NAME} | tr -dc '[:alnum:]')
+        CURL_RESPONSE_GOOD=$(curl --location -A "googlebot" -Isk -o /dev/null -w %{http_code} ${CURL_TEST_PROTOCOL}://${CURL_TEST_URL_NAME} | tr -dc '[:alnum:]')
         if [ $CURL_RESPONSE_BAD != "403" ] || [ $CURL_RESPONSE_GOOD != "200" ] ; then
           echo -e "Subject: Bad bot CURL FAIL \\n\\n ${CURL_FAIL}\\n" | sendmail -t ${EMAIL};
           exit 1;
