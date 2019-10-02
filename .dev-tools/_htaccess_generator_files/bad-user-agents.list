@@ -4,6 +4,7 @@
 80legs
 Abonti
 Aboundex
+Aboundexbot
 Acunetix
 ADmantX
 AfD\-Verbotsverfahren
@@ -50,7 +51,6 @@ Bolt
 BotALot
 Brandprotect
 Brandwatch
-Bubing
 Buddy
 BuiltBotTough
 BuiltWith
@@ -85,6 +85,7 @@ crawler\.feedback
 crawl\.sogou\.com
 CrazyWebCrawler
 Crescent
+CrunchBot
 CSHttp
 Curious
 Custo
@@ -102,6 +103,7 @@ Dirbuster
 Disco
 Discobot
 Discoverybot
+Dispatch
 DittoSpyder
 DnyzBot
 DomainAppender
@@ -112,6 +114,7 @@ Dotbot
 Download\ Wonder
 Dragonfly
 Drip
+DSearch
 DTS\ Agent
 EasyDL
 Ebingbong
@@ -132,6 +135,7 @@ ExtractorPro
 Extreme\ Picture\ Finder
 EyeNetIE
 Ezooms
+facebookscraper
 FDM
 FemtosearchBot
 FHscan
@@ -202,6 +206,7 @@ JamesBOT
 Jbrofuzz
 JennyBot
 JetCar
+Jetty
 JikeSpider
 JOC\ Web\ Spider
 Joomla
@@ -221,7 +226,6 @@ LibWeb
 Libwhisker
 Lightspeedsystems
 Likse
-Linguee
 Linkdexbot
 LinkextractorPro
 LinkpadBot
@@ -232,6 +236,7 @@ LinqiaMetadataDownloaderBot
 LinqiaRSSBot
 LinqiaScrapeBot
 Lipperhey
+Lipperhey\ Spider
 Litemage\_walker
 Lmspider
 LNSpiderguy
@@ -244,13 +249,17 @@ Mag\-Net
 magpie\-crawler
 Mail\.RU\_Bot
 Majestic12
+Majestic\ SEO
+Majestic\-SEO
 MarkMonitor
 MarkWatch
 Masscan
 Mass\ Downloader
 Mata\ Hari
 MauiBot
+meanpathbot
 Meanpathbot
+MeanPath\ Bot
 Mediatoolkitbot
 mediawords
 MegaIndex\.ru
@@ -268,7 +277,6 @@ Mr\.4x3
 MSFrontPage
 MSIECrawler
 Msrabot
-MS\ Web\ Services\ Client\ Protocol
 muhstik\-scan
 Musobot
 Name\ Intelligence
@@ -293,6 +301,7 @@ NICErsPRO
 Niki\-bot
 Nikto
 NimbleCrawler
+Nimbostratus
 Ninja
 Nmap
 NPbot
@@ -301,6 +310,7 @@ oBot
 Octopus
 Offline\ Explorer
 Offline\ Navigator
+OnCrawl
 Openfind
 OpenLinkProfiler
 Openvas
@@ -314,6 +324,7 @@ Page\ Analyzer
 PageGrabber
 page\ scorer
 PageScorer
+Pandalytics
 Panscient
 Papa\ Foto
 Pavuk
@@ -357,12 +368,14 @@ RepoMonkey
 Ripper
 RocketCrawler
 Rogerbot
+RSSingBot
 s1z\.ru
 SalesIntelligent
 SBIder
 ScanAlert
 Scanbot
 scan\.lol
+ScoutJet
 Scrapy
 Screaming
 ScreenerBot
@@ -371,12 +384,14 @@ SearchmetricsBot
 Semrush
 SemrushBot
 SEOkicks
+SEOkicks\-Robot
 SEOlyticsCrawler
 Seomoz
 SEOprofiler
 seoscanners
 SeoSiteCheckup
 SEOstats
+serpstatbot
 sexsearcher
 Shodan
 Siphon
@@ -389,7 +404,6 @@ SiteSnagger
 SiteSucker
 Site\ Sucker
 Sitevigil
-Slackbot\-LinkExpanding
 SlySearch
 SmartDownload
 SMTBot
@@ -397,6 +411,7 @@ Snake
 Snapbot
 Snoopy
 SocialRankIOBot
+Sociscraper
 sogouspider
 Sogou\ web\ spider
 Sosospider
@@ -405,9 +420,11 @@ SpaceBison
 Spammen
 SpankBot
 Spanner
+sp\_auditbot
 Spbot
 Spinn3r
 SputnikBot
+spyfu
 Sqlmap
 Sqlworm
 Sqworm
@@ -433,6 +450,7 @@ Telesphoreo
 Telesphorep
 The\ Intraformant
 TheNomad
+Thumbor
 TightTwatBot
 Titan
 Toata
@@ -450,6 +468,7 @@ TwengaBot
 Twice
 Typhoeus
 UnisterBot
+Upflow
 URLy\ Warning
 URLy\.Warning
 Vacuum
@@ -524,7 +543,6 @@ Xaldon\ WebSpider
 Xaldon\_WebSpider
 Xenu
 xpymep1\.exe
-YandexBot
 YoudaoBot
 Zade
 Zauba
@@ -534,6 +552,5 @@ Zeus
 zgrab
 Zitebot
 ZmEu
-ZoominfoBot
 ZumBot
 ZyBorg

@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2019.06.1115
-### Updated: Sun Jun  2 17:31:57 SAST 2019
-### Bad Bot Count: 539
+### Version: V3.2019.10.1180
+### Updated: Tue Oct  1 12:07:33 SAST 2019
+### Bad Bot Count: 556
 ###################################################
 ### Version Information ##
 
@@ -26,6 +26,8 @@ Disallow:/
 User-agent: Abonti
 Disallow:/
 User-agent: Aboundex
+Disallow:/
+User-agent: Aboundexbot
 Disallow:/
 User-agent: Acunetix
 Disallow:/
@@ -119,8 +121,6 @@ User-agent: Brandprotect
 Disallow:/
 User-agent: Brandwatch
 Disallow:/
-User-agent: Bubing
-Disallow:/
 User-agent: Buddy
 Disallow:/
 User-agent: BuiltBotTough
@@ -189,6 +189,8 @@ User-agent: CrazyWebCrawler
 Disallow:/
 User-agent: Crescent
 Disallow:/
+User-agent: CrunchBot
+Disallow:/
 User-agent: CSHttp
 Disallow:/
 User-agent: Curious
@@ -223,6 +225,8 @@ User-agent: Discobot
 Disallow:/
 User-agent: Discoverybot
 Disallow:/
+User-agent: Dispatch
+Disallow:/
 User-agent: DittoSpyder
 Disallow:/
 User-agent: DnyzBot
@@ -242,6 +246,8 @@ Disallow:/
 User-agent: Dragonfly
 Disallow:/
 User-agent: Drip
+Disallow:/
+User-agent: DSearch
 Disallow:/
 User-agent: DTS Agent
 Disallow:/
@@ -282,6 +288,8 @@ Disallow:/
 User-agent: EyeNetIE
 Disallow:/
 User-agent: Ezooms
+Disallow:/
+User-agent: facebookscraper
 Disallow:/
 User-agent: FDM
 Disallow:/
@@ -423,6 +431,8 @@ User-agent: JennyBot
 Disallow:/
 User-agent: JetCar
 Disallow:/
+User-agent: Jetty
+Disallow:/
 User-agent: JikeSpider
 Disallow:/
 User-agent: JOC Web Spider
@@ -461,8 +471,6 @@ User-agent: Lightspeedsystems
 Disallow:/
 User-agent: Likse
 Disallow:/
-User-agent: Linguee
-Disallow:/
 User-agent: Linkdexbot
 Disallow:/
 User-agent: LinkextractorPro
@@ -482,6 +490,8 @@ Disallow:/
 User-agent: LinqiaScrapeBot
 Disallow:/
 User-agent: Lipperhey
+Disallow:/
+User-agent: Lipperhey Spider
 Disallow:/
 User-agent: Litemage_walker
 Disallow:/
@@ -507,6 +517,10 @@ User-agent: Mail.RU_Bot
 Disallow:/
 User-agent: Majestic12
 Disallow:/
+User-agent: Majestic SEO
+Disallow:/
+User-agent: Majestic-SEO
+Disallow:/
 User-agent: MarkMonitor
 Disallow:/
 User-agent: MarkWatch
@@ -519,7 +533,11 @@ User-agent: Mata Hari
 Disallow:/
 User-agent: MauiBot
 Disallow:/
+User-agent: meanpathbot
+Disallow:/
 User-agent: Meanpathbot
+Disallow:/
+User-agent: MeanPath Bot
 Disallow:/
 User-agent: Mediatoolkitbot
 Disallow:/
@@ -554,8 +572,6 @@ Disallow:/
 User-agent: MSIECrawler
 Disallow:/
 User-agent: Msrabot
-Disallow:/
-User-agent: MS Web Services Client Protocol
 Disallow:/
 User-agent: muhstik-scan
 Disallow:/
@@ -605,6 +621,8 @@ User-agent: Nikto
 Disallow:/
 User-agent: NimbleCrawler
 Disallow:/
+User-agent: Nimbostratus
+Disallow:/
 User-agent: Ninja
 Disallow:/
 User-agent: Nmap
@@ -620,6 +638,8 @@ Disallow:/
 User-agent: Offline Explorer
 Disallow:/
 User-agent: Offline Navigator
+Disallow:/
+User-agent: OnCrawl
 Disallow:/
 User-agent: Openfind
 Disallow:/
@@ -646,6 +666,8 @@ Disallow:/
 User-agent: page scorer
 Disallow:/
 User-agent: PageScorer
+Disallow:/
+User-agent: Pandalytics
 Disallow:/
 User-agent: Panscient
 Disallow:/
@@ -733,6 +755,8 @@ User-agent: RocketCrawler
 Disallow:/
 User-agent: Rogerbot
 Disallow:/
+User-agent: RSSingBot
+Disallow:/
 User-agent: s1z.ru
 Disallow:/
 User-agent: SalesIntelligent
@@ -744,6 +768,8 @@ Disallow:/
 User-agent: Scanbot
 Disallow:/
 User-agent: scan.lol
+Disallow:/
+User-agent: ScoutJet
 Disallow:/
 User-agent: Scrapy
 Disallow:/
@@ -761,6 +787,8 @@ User-agent: SemrushBot
 Disallow:/
 User-agent: SEOkicks
 Disallow:/
+User-agent: SEOkicks-Robot
+Disallow:/
 User-agent: SEOlyticsCrawler
 Disallow:/
 User-agent: Seomoz
@@ -772,6 +800,8 @@ Disallow:/
 User-agent: SeoSiteCheckup
 Disallow:/
 User-agent: SEOstats
+Disallow:/
+User-agent: serpstatbot
 Disallow:/
 User-agent: sexsearcher
 Disallow:/
@@ -797,8 +827,6 @@ User-agent: Site Sucker
 Disallow:/
 User-agent: Sitevigil
 Disallow:/
-User-agent: Slackbot-LinkExpanding
-Disallow:/
 User-agent: SlySearch
 Disallow:/
 User-agent: SmartDownload
@@ -812,6 +840,8 @@ Disallow:/
 User-agent: Snoopy
 Disallow:/
 User-agent: SocialRankIOBot
+Disallow:/
+User-agent: Sociscraper
 Disallow:/
 User-agent: sogouspider
 Disallow:/
@@ -829,11 +859,15 @@ User-agent: SpankBot
 Disallow:/
 User-agent: Spanner
 Disallow:/
+User-agent: sp_auditbot
+Disallow:/
 User-agent: Spbot
 Disallow:/
 User-agent: Spinn3r
 Disallow:/
 User-agent: SputnikBot
+Disallow:/
+User-agent: spyfu
 Disallow:/
 User-agent: Sqlmap
 Disallow:/
@@ -885,6 +919,8 @@ User-agent: The Intraformant
 Disallow:/
 User-agent: TheNomad
 Disallow:/
+User-agent: Thumbor
+Disallow:/
 User-agent: TightTwatBot
 Disallow:/
 User-agent: Titan
@@ -918,6 +954,8 @@ Disallow:/
 User-agent: Typhoeus
 Disallow:/
 User-agent: UnisterBot
+Disallow:/
+User-agent: Upflow
 Disallow:/
 User-agent: URLy Warning
 Disallow:/
@@ -1067,8 +1105,6 @@ User-agent: Xenu
 Disallow:/
 User-agent: xpymep1.exe
 Disallow:/
-User-agent: YandexBot
-Disallow:/
 User-agent: YoudaoBot
 Disallow:/
 User-agent: Zade
@@ -1086,8 +1122,6 @@ Disallow:/
 User-agent: Zitebot
 Disallow:/
 User-agent: ZmEu
-Disallow:/
-User-agent: ZoominfoBot
 Disallow:/
 User-agent: ZumBot
 Disallow:/
