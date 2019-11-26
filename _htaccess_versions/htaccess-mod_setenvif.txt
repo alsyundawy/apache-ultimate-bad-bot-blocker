@@ -5,9 +5,9 @@
 # https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
 
 ### Version Information #
-### Version: V3.2019.10.1180
-### Bad Referrer Count: 6774
-### Bad Bot Count: 556
+### Version: V3.2019.10.1184
+### Bad Referrer Count: 6782
+### Bad Bot Count: 562
 ### Version Information ##
 
 <IfModule mod_setenvif.c>
@@ -34,10 +34,14 @@ SetEnvIfNoCase User-Agent \bAlphaBot\b spambot=yes
 SetEnvIfNoCase User-Agent \bAnarchie\b spambot=yes
 SetEnvIfNoCase User-Agent \bApexoo\b spambot=yes
 SetEnvIfNoCase User-Agent \barchive\.org\_bot\b spambot=yes
+SetEnvIfNoCase User-Agent \barquivo\.pt\b spambot=yes
+SetEnvIfNoCase User-Agent \barquivo\-web\-crawler\b spambot=yes
 SetEnvIfNoCase User-Agent \bASPSeek\b spambot=yes
 SetEnvIfNoCase User-Agent \bAsterias\b spambot=yes
 SetEnvIfNoCase User-Agent \bAttach\b spambot=yes
 SetEnvIfNoCase User-Agent \bautoemailspider\b spambot=yes
+SetEnvIfNoCase User-Agent \bAwarioRssBot\b spambot=yes
+SetEnvIfNoCase User-Agent \bAwarioSmartBot\b spambot=yes
 SetEnvIfNoCase User-Agent \bBackDoorBot\b spambot=yes
 SetEnvIfNoCase User-Agent \bBacklink\-Ceck\b spambot=yes
 SetEnvIfNoCase User-Agent \bbacklink\-check\b spambot=yes
@@ -188,6 +192,7 @@ SetEnvIfNoCase User-Agent \bHaosouSpider\b spambot=yes
 SetEnvIfNoCase User-Agent \bHarvest\b spambot=yes
 SetEnvIfNoCase User-Agent \bHavij\b spambot=yes
 SetEnvIfNoCase User-Agent \bHEADMasterSEO\b spambot=yes
+SetEnvIfNoCase User-Agent \bheritrix\b spambot=yes
 SetEnvIfNoCase User-Agent \bHeritrix\b spambot=yes
 SetEnvIfNoCase User-Agent \bHloader\b spambot=yes
 SetEnvIfNoCase User-Agent \bHMView\b spambot=yes
@@ -287,6 +292,7 @@ SetEnvIfNoCase User-Agent \bMIIxpc\b spambot=yes
 SetEnvIfNoCase User-Agent \bMister\ PiX\b spambot=yes
 SetEnvIfNoCase User-Agent \bMJ12bot\b spambot=yes
 SetEnvIfNoCase User-Agent \bMojeek\b spambot=yes
+SetEnvIfNoCase User-Agent \bMojolicious\b spambot=yes
 SetEnvIfNoCase User-Agent \bMorfeus\ Fucking\ Scanner\b spambot=yes
 SetEnvIfNoCase User-Agent \bMr\.4x3\b spambot=yes
 SetEnvIfNoCase User-Agent \bMSFrontPage\b spambot=yes
@@ -1098,6 +1104,7 @@ SetEnvIfNoCase Referer arkartex\.ru spambot=yes
 SetEnvIfNoCase Referer arkkivoltti\.net spambot=yes
 SetEnvIfNoCase Referer arpelsreplica\.xyz spambot=yes
 SetEnvIfNoCase Referer arquapetrarca\.info spambot=yes
+SetEnvIfNoCase Referer arquivo\.pt spambot=yes
 SetEnvIfNoCase Referer arraty\.altervista\.org spambot=yes
 SetEnvIfNoCase Referer artavenuegardenstudios\.com spambot=yes
 SetEnvIfNoCase Referer artdeko\.info spambot=yes
@@ -1984,6 +1991,7 @@ SetEnvIfNoCase Referer coolgamechannel\.com spambot=yes
 SetEnvIfNoCase Referer coolgramgoods\.com spambot=yes
 SetEnvIfNoCase Referer coolingoods\.com spambot=yes
 SetEnvIfNoCase Referer coolwallpapers\-hd\.com spambot=yes
+SetEnvIfNoCase Referer coolwallpapers4k\.info spambot=yes
 SetEnvIfNoCase Referer coolyarddecorations\.com spambot=yes
 SetEnvIfNoCase Referer coop\-gamers\.ru spambot=yes
 SetEnvIfNoCase Referer copblock\.org spambot=yes
@@ -3833,6 +3841,7 @@ SetEnvIfNoCase Referer lacasamorett\.com spambot=yes
 SetEnvIfNoCase Referer lacave\.ntic\.fr spambot=yes
 SetEnvIfNoCase Referer lacloop\.info spambot=yes
 SetEnvIfNoCase Referer ladov\.ru spambot=yes
+SetEnvIfNoCase Referer ladsup\.com spambot=yes
 SetEnvIfNoCase Referer laexotic\.com spambot=yes
 SetEnvIfNoCase Referer lafourmiliaire\.com spambot=yes
 SetEnvIfNoCase Referer lafriore\.ru spambot=yes
@@ -5121,6 +5130,7 @@ SetEnvIfNoCase Referer printingpeach\.com spambot=yes
 SetEnvIfNoCase Referer priora\-2\.com spambot=yes
 SetEnvIfNoCase Referer priscilarodrigues\.com\.br spambot=yes
 SetEnvIfNoCase Referer privacyassistant\.net spambot=yes
+SetEnvIfNoCase Referer privacylocationforloc\.com spambot=yes
 SetEnvIfNoCase Referer privat\-girl\.net spambot=yes
 SetEnvIfNoCase Referer privatamateure\.com spambot=yes
 SetEnvIfNoCase Referer privatbank46\.ru spambot=yes
@@ -5247,6 +5257,7 @@ SetEnvIfNoCase Referer quickloanbank\.com spambot=yes
 SetEnvIfNoCase Referer quit\-smoking\.ga spambot=yes
 SetEnvIfNoCase Referer quizzitch\.net spambot=yes
 SetEnvIfNoCase Referer qwarckoine\.com spambot=yes
+SetEnvIfNoCase Referer qwertty\.net spambot=yes
 SetEnvIfNoCase Referer qwesa\.ru spambot=yes
 SetEnvIfNoCase Referer r\-control\.ru spambot=yes
 SetEnvIfNoCase Referer r\-e\-f\-e\-r\-e\-r\.com spambot=yes
@@ -5279,6 +5290,7 @@ SetEnvIfNoCase Referer rapevideosmovies\.com spambot=yes
 SetEnvIfNoCase Referer rapidgator\-porn\.ga spambot=yes
 SetEnvIfNoCase Referer rapidokbrain\.com spambot=yes
 SetEnvIfNoCase Referer rapidsites\.pro spambot=yes
+SetEnvIfNoCase Referer rarbg\.to spambot=yes
 SetEnvIfNoCase Referer raschtextil\.com\.ua spambot=yes
 SetEnvIfNoCase Referer rasteniya\-vs\-zombi\.ru spambot=yes
 SetEnvIfNoCase Referer ratemodels\.net spambot=yes
@@ -5722,6 +5734,7 @@ SetEnvIfNoCase Referer sextracker\.de spambot=yes
 SetEnvIfNoCase Referer sexuria\.net spambot=yes
 SetEnvIfNoCase Referer sexvideo\-sex\.com spambot=yes
 SetEnvIfNoCase Referer sexvporno\.ru spambot=yes
+SetEnvIfNoCase Referer sexxdate\.net spambot=yes
 SetEnvIfNoCase Referer sexy\-pings\.com spambot=yes
 SetEnvIfNoCase Referer sexy\-screen\-savers\.com spambot=yes
 SetEnvIfNoCase Referer sexy\.babes\.frontend\-stack\.top spambot=yes
@@ -7171,6 +7184,7 @@ SetEnvIfNoCase Referer yebocasino\.com spambot=yes
 SetEnvIfNoCase Referer yellocloud\.be spambot=yes
 SetEnvIfNoCase Referer yellowads\.men spambot=yes
 SetEnvIfNoCase Referer yellowfootprints\.com spambot=yes
+SetEnvIfNoCase Referer yellowproxy\.net spambot=yes
 SetEnvIfNoCase Referer yellowstonesafaritours\.com spambot=yes
 SetEnvIfNoCase Referer yellowstonevisitortours\.com spambot=yes
 SetEnvIfNoCase Referer yes\-com\.com spambot=yes

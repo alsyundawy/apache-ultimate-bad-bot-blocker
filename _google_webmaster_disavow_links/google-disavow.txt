@@ -527,6 +527,7 @@ domain:arkartex.ru
 domain:arkkivoltti.net
 domain:arpelsreplica.xyz
 domain:arquapetrarca.info
+domain:arquivo.pt
 domain:arraty.altervista.org
 domain:artavenuegardenstudios.com
 domain:artdeko.info
@@ -1413,6 +1414,7 @@ domain:coolgamechannel.com
 domain:coolgramgoods.com
 domain:coolingoods.com
 domain:coolwallpapers-hd.com
+domain:coolwallpapers4k.info
 domain:coolyarddecorations.com
 domain:coop-gamers.ru
 domain:copblock.org
@@ -3262,6 +3264,7 @@ domain:lacasamorett.com
 domain:lacave.ntic.fr
 domain:lacloop.info
 domain:ladov.ru
+domain:ladsup.com
 domain:laexotic.com
 domain:lafourmiliaire.com
 domain:lafriore.ru
@@ -4550,6 +4553,7 @@ domain:printingpeach.com
 domain:priora-2.com
 domain:priscilarodrigues.com.br
 domain:privacyassistant.net
+domain:privacylocationforloc.com
 domain:privat-girl.net
 domain:privatamateure.com
 domain:privatbank46.ru
@@ -4676,6 +4680,7 @@ domain:quickloanbank.com
 domain:quit-smoking.ga
 domain:quizzitch.net
 domain:qwarckoine.com
+domain:qwertty.net
 domain:qwesa.ru
 domain:r-control.ru
 domain:r-e-f-e-r-e-r.com
@@ -4708,6 +4713,7 @@ domain:rapevideosmovies.com
 domain:rapidgator-porn.ga
 domain:rapidokbrain.com
 domain:rapidsites.pro
+domain:rarbg.to
 domain:raschtextil.com.ua
 domain:rasteniya-vs-zombi.ru
 domain:ratemodels.net
@@ -5151,6 +5157,7 @@ domain:sextracker.de
 domain:sexuria.net
 domain:sexvideo-sex.com
 domain:sexvporno.ru
+domain:sexxdate.net
 domain:sexy-pings.com
 domain:sexy-screen-savers.com
 domain:sexy.babes.frontend-stack.top
@@ -6600,6 +6607,7 @@ domain:yebocasino.com
 domain:yellocloud.be
 domain:yellowads.men
 domain:yellowfootprints.com
+domain:yellowproxy.net
 domain:yellowstonesafaritours.com
 domain:yellowstonevisitortours.com
 domain:yes-com.com
